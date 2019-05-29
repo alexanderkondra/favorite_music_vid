@@ -1,41 +1,44 @@
 <!DOCTYPE html>
 <html>
-  <header>
-    <title>Best Movies Ever</title>
-        <!-- This is some CSS styling applied to the page-->
-    <style>
-    body {background-color: darkgray; color: white;}
-    nav {background-color: darkorange; padding: 10px;}
-    nav a {color: white; padding: 20px;}
-    img {padding:10px;}
-    </style>
-  </header>
-  <body>
-    <nav><a href="favorite-movies.html"> Favorite Movies</a> <a href="favorite-music.html"> Favorite Music</a> </nav>
-    <h1>Best Movies Ever</h1>
-    <h2> Movies we Like</h2>
-    <img src="img/moviereel.jpg" alt="A movie reel" height="200px">
-    <p> We like movies that are <em>exciting</em> and funny
-      and <strong>action packed.</strong> Here is a list of
-      the movies we like:</p>
-    <ul>
-      <li>Ferris Buellers Day Off</li>
-      <li>Princess Bride</li>
-      <li>Kill Bill</li>
-      <li>Breakfast Club</li>
-      <li>Star Was Trilogy</li>
-      <li>The Thing</li>
-      <li>Plotergist</li>
-      <li>Evil Dead</li>
-      <li>Trading Places</li>
-    </ul>
+<header>
+  <title>Best Movies Ever</title>
+  <!-- This is some CSS styling applied to the page-->
+  <link href="styles/styles.css" rel="stylesheet" type="text/css">
+  <link href="https://fonts.googleapis.com/css?family=Oswald&display=swap" rel="stylesheet">
+</header>
+<body>
+  <nav><a href="favorite-movies.html"> Favorite Movies</a> <a href="favorite-music.html"> Favorite Music</a> </nav>
+  <h1>Best Movies Ever</h1>
+  <h2> Movies we Like</h2>
+  <img src="img/moviereel.jpg" alt="A movie reel" height="200px">
+  <p> We like movies that are <em>exciting</em> and funny
+    and <strong>action packed.</strong> Here is a list of
+    the movies we like:</p>
+    <div class="movieList">
+      <ul>
+        <li>Ferris Buellers Day Off</li>
+        <li>Princess Bride</li>
+        <li>Kill Bill</li>
+        <li>Breakfast Club</li>
+        <li>Star Was Trilogy</li>
+        <li>The Thing</li>
+        <li>Plotergist</li>
+        <li>Evil Dead</li>
+        <li>Trading Places</li>
+        <li>Blow</li>
+        <li> The Last Samurai</li>
+      </ul>
+    </div>
 
     <img src="img/ferris.jpg" alt="Ferris Bueller, you're my hero" height="300px">
     <img src="img/breakfast.jpg" alt="Breakfast Club" height="300px">
     <img src="img/bride.jpg" alt="I am not left handed" height="300px">
+    <img src="img/blow.jpg" alt="Blow poster" height="300px">
+    <img src="img/samurai.jpg" alt="The last samurai poster" height="300px">
 
     <h2>Worst Movies Ever</h2>
 
+<div class="movieList">
     <ol>
       <li>Greta</li>
       <li>Star is Born</li>
@@ -47,7 +50,8 @@
       <li>Roadhouse</li>
       <li>Flashdance</li>
     </ol>
+</div>
     <p>Please give us your vote!</p>
 
   </body>
-</html>
+  </html>
